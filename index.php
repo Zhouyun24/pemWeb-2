@@ -1,15 +1,17 @@
+<!-- Form Pegawai -->
 <html>
 	<center>
 	<body>
 		<h1>Form Pegawai</h1>
 		<hr>
-		<form action="prosesPegawai.php" method="POST">
+		<form action="prosesPegawai2.php" method="POST">
 			<table>
 				<tr><td>Nama Pegawai</td><td>: <input type="text" name="namaPegawai" required></td></tr>
 				<tr>
 					<td>Bagian</td>
 					<td>
 						: <select name="bagian" required>
+							<option value="" disabled selected>-- Pilih Jurusan --</option>
 							<option value="IT" name="IT" >IT</option>
 							<option value="PRODUKSI" name="PRODUKSI">PRODUKSI</option>
 							<option value="KEUANGAN" name="KEUANGAN">KEUANGAN</option>
@@ -19,7 +21,7 @@
 				<tr>
 					<td>Pendidikan</td>
 					<td>
-						: 
+						:
 						<input type="radio" name="pendidikan" value="D3" required>D3
 						<input type="radio" name="pendidikan" value="S1">S1  
 						<input type="radio" name="pendidikan" value="S2">S2
