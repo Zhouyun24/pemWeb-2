@@ -21,7 +21,7 @@
 					<td>
 						: 
 						<input type="radio" name="pendidikan" value="D3" required>D3
-						<input type="radio" name="pendidikan" value="S1">S1 
+						<input type="radio" name="pendidikan" value="S1">S1  
 						<input type="radio" name="pendidikan" value="S2">S2
 					</td>
 				</tr>
